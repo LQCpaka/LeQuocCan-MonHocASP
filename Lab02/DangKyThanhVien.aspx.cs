@@ -45,6 +45,7 @@ namespace Lab02
             kq += $"<li> Mật khẩu: {txtMatKhau.Text} </li>";
             kq += $"<li> Ngày sinh: {ddlNgay.SelectedValue}/{ddlThang.SelectedValue}/{ddlNam.SelectedValue} </li>";
             kq += $"<li> Email: {txtEmail.Text}</li>";
+            kq += $"<li> Phái: {(chkPhai.Checked ?"Nam":"Nữ")}</li>";
             kq += $"<li> Địa chỉ: {txtDiaChi.Text}</li>";
             kq += $"<li> Điện thoại: {txtDienThoai.Text}</li>";
             kq += "</ul>";
